@@ -1,0 +1,94 @@
+ <!--PROJECT>HTML-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | R.Pradeep</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="particleCanvas"></canvas>
+
+<header>
+  <div class="logo">R.Pradeep</div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="certificates.html">Certificates</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <!--Hamburger menu for mobile-->
+  <div class="hamburger"><span></span><span></span><span></span></div> 
+</header>
+
+<section class="projects-section fade-in">
+  <h1>My Projects</h1>
+  <div class="projects-grid">
+    <div class="project-card">
+      <img src="assets/project1.jpg" alt="Frontend Projects">
+      <h3>Frontend Web Project</h3>
+      <a href="https://github.com/pradeep031108/Frentend_Projects">GitHub Repo</a> 
+       <a href="https://pradeep031108.github.io/Frentend_Projects/">Live Link</a>
+    </div>
+    <div class="project-card">
+      <img src="assets/project2.jpg" alt="Python Chatbot">
+      <h3>Python Dr.Chatbot App</h3>
+      <a href="https://github.com/pradeep031108/Dr.Chatbot-Python-AI-Assistant">GitHub Repo</a>
+      <a href="https://drive.google.com/file/d/1z3v8NtEzUMBl5kNwCXKX48oz_8ymbAjQ/view?usp=drive_link">Working Video</a>
+    </div>
+    <div class="project-card">
+      <img src="assets/project3.jpg" alt="Flutter Todo List">
+      <h3>Flutter ToDo List App</h3>
+      <a href="https://github.com/pradeep031108/FUTTER__TODOLIST">GitHub Repo</a> 
+    </div>
+    <div class="project-card">
+      <img src="assets/project4.jpg" alt="Flutter Calculator">
+      <h3>Flutter Calculator App</h3>
+      <a href="https://github.com/pradeep031108/FUTTER__Calculator">GitHub Repo</a>
+    </div>
+    <div class="project-card">
+      <img src="assets/project5.jpg" alt="Birthday Wishes">
+      <h3>Birthday Wishes App</h3>
+      <a href="https://github.com/pradeep031108/Birthday_celbration">GitHub Repo</a> 
+      <a href="https://pradeep031108.github.io/Birthday_celbration/">Live Link</a>
+    </div>
+    <div class="project-card">
+      <img src="assets/project6.jpg" alt="Automatic Gas Off">
+      <h3>Automatic Gas Lekage Off System</h3>
+      <a href="https://drive.google.com/file/d/1bc8qCpZdTh0stIa_szFfREIIyg_QQLNm/view?usp=drive_link">Working Video</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="socials">
+    <a href="https://www.instagram.com/pradeep__cybermind/?hl=en" target="_blank">Instagram</a>
+    <a href="https://www.linkedin.com/in/r-pradeep-b9a440349/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/pradeep031108"target="_blank">GitHub</a>
+    <a href="https://www.hackerrank.com/profile/rp3952634" target="_blank">HackerRank</a>
+  </div>
+  <p>© 2025 R.Pradeep | All Rights Reserved</p>
+</footer>
+
+
+<script src="js/particles.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Centered Image Modal -->
+<div id="imageModal" class="image-modal">
+  <div class="image-modal-backdrop"></div>
+  <div class="image-modal-box">
+    <button class="image-modal-close" aria-label="Close preview">&times;</button>
+    <img id="imageModalImg" alt="Preview Image">
+    <p id="imageModalCaption" class="image-modal-caption"></p>
+  </div>
+</div>
+
+
+</body>
+</html>
